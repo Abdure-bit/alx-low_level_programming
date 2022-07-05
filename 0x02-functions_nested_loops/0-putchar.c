@@ -3,10 +3,16 @@
 /**
  * main - Entry point
  *
- * return: Always retur 0 (Success)
+ * Return: Always retur 0 (Success)
  */
 int main(void)
 {
-	printf("_putchar");
+	char arr[]={'_','p','u','t','c','h','a','r','\n','\0'};
+	int i=0;
+	while(arr[i])
+	{
+		putchar(arr[i]);
+		i++;
+	}
 	return (0);
 }
