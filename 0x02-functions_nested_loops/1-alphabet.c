@@ -3,6 +3,12 @@
  *
  * return: Always return 0(Success)
  */
+int main(void)
+{
+	print_alphabet();
+	return (0);
+}
+
 void print_alphabet(void)
 {
 	for (int i = 97; i < 123; i++)
@@ -10,5 +16,4 @@ void print_alphabet(void)
 		putchar((char)i);
 		putchar('\n');
 	}
-	return (0);
 }
