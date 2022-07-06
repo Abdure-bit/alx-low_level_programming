@@ -3,7 +3,8 @@
 /**
  * _islower - check the code.
  *
- * Return: Always 0.
+ * @c: the function recieves an intiger value
+ * Return: 1 if true and 0 f it is false.
  */
 
 int _islower(int c)
