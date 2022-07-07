@@ -1,24 +1,24 @@
 #include "main.h"
 
 /**
- * largest_number - entry point
+ * largest_number - retyrns the largerst of 3 numbers
  *@a: first integer
  *@b: second integer
  *@c: third integer
- * Return: the larger number.
+ * Return: larger number.
  */
 
 int largest_number(int a, int b, int c)
 {
-	int largerst = b;
+	int largest = b;
 
 	if (a > b)
 	{
-		largerst = a;
+		largest = a;
 	}
 	else if
 	{
 		largest = c;
 	}
-	return (largerst);
+	return (largest);
 }
